@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 /**
 * print_bin - convert to binary
 * @b: number in decinal
