@@ -27,7 +27,7 @@ int print_bin(va_list b)
 		for (j = 1; j <= len; j++)
 		{
 			digit = n / powten;
-			_putchar(digit + '0');
+			putchar(digit + '0');
 			count++;
 			n -= digit * powten;
 			powten /= 2;
