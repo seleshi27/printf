@@ -26,7 +26,7 @@ int print_unsig(va_list u)
 		for (j = 1; j <= len; j++)
 		{
 			digit = n / powten;
-			_putchar(digit + '0');
+			putchar(digit + '0');
 			count++;
 			n -= digit * powten;
 			powten /= 10;
@@ -34,7 +34,7 @@ int print_unsig(va_list u)
 	}
 	else
 	{
-		_putchar('0');
+		putchar('0');
 		return (1);
 	}
 	return (count);
