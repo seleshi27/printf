@@ -35,7 +35,7 @@ int print_bin(va_list b)
 	}
 	else
 	{
-		_putchar('0');
+		putchar('0');
 		return (1);
 	}
 	return (count);
