@@ -38,11 +38,7 @@ int _printf(const char *format, ...)
 			size = get_size(format, &i);
 			++i;
 			printed = handle_print(format, &i, list, buffer,
-<<<<<<< HEAD
-					flags, width, precision, size);
-=======
 				flags, width, precision, size);
->>>>>>> 8ffc5fe66c172128fd44e78dfc3a0582657e2981
 			if (printed == -1)
 				return (-1);
 			printed_chars += printed;
