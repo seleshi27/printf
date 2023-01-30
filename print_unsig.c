@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_unsig - function that prints unsigned number
-* @u: unsigned number
+* @u: unsigned number.
 * Descriptions: prints unsigned number with putchar
 * Return: size the output
 */
